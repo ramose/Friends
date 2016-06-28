@@ -8,12 +8,13 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".DetailActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#ccc">
 
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:id="@+id/image"
+        android:id="@+id/imageview"
         android:layout_gravity="center"
         android:background="#ccc"/>
 
@@ -32,7 +33,14 @@
         android:id="@+id/email"
         android:text="email disini"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:textSize="15dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:id="@+id/btclose"
+        android:layout_gravity="center"/>
 
 </LinearLayout>
